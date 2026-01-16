@@ -1,7 +1,15 @@
-from square import square
-def test_positive():
-    assert square(2) == 4
-def  test_negative_and_zero():
-   assert square(-3) == 9
-def test_zero():    
-    assert square(0) == 0
+# test_data.py
+
+from data import square_number
+
+def test_square_case1():
+    expected_output = 4
+    assert square(2) == expected_output
+
+def test_square_case2():
+    expected_output = 25
+    assert square(5) == expected_output
+
+def test_square_case3():
+    expected_output = 9
+    assert square(-3) == expected_output
