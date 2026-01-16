@@ -1,6 +1,10 @@
+# data.py
+
 def square(num):
-    result num * num
+    result = num * num  # calculate square
     return result
-    if _name_ == "_main_":
+
+
+if __name__ == "__main__":
     num = float(input("Enter a number: "))
     print(square(num))
